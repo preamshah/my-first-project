@@ -1,23 +1,52 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor / IDE settings
 .vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# Environment / secret files
+.env
+.env.*
+!.env.example
+
+# Dependencies (if tooling is added later)
+node_modules/
+
+# Build / cache output
+dist/
+build/
+.cache/
+.parcel-cache/
+.vite/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+
+# Archives generated locally
+*.zip
+*.tar
+*.tar.gz
+
+# Hosting / deployment metadata
+.vercel/
+.netlify/
+
+# Test / coverage output
+coverage/
